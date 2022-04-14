@@ -4,15 +4,17 @@
 <!-- 自定义头部 -->
 <navbar  page-name="首页" isTitle="true" showHome="true"></navbar>
 <view>
-  <swiper autoplay="true" interval="5000" duration="500" circular="true" 	previous-margin="40rpx" 	next-margin="40rpx">
+
+  <swiper :autoplay="false" interval="5000" duration="500" circular="true" 	previous-margin="40rpx"	next-margin="40rpx">
     <block wx:for="{{10}}" wx:key="*this">
       <swiper-item>
-        <view class="swiper_item_view" style="margin-left: 10rpx; margin-right: 10rpx; width: 100%;height: 100%;">
-          <image mode="{{item.mode}}" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+        <view class="swiper_item_view">
+          <image class="swiper_item_imgage" mode="{{item.mode}}" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
         </view>
       </swiper-item>
     </block>  
   </swiper>
+
 </view>
   
 </view>

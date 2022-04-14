@@ -2,3 +2,13 @@
 .index{
   
 }
+.swiper_item_view{
+  width: 100%;
+  height: 100%;
+  margin-left: 10rpx;
+  margin-right:10rpx ;
+}
+.swiper_item_imgage{
+  width: 100%;
+  height: 100%;
+}

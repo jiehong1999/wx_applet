@@ -41,29 +41,12 @@ Component({
     navTop: App.globalData.navTop,
     navHeight: App.globalData.navHeight,
     windowHeight: App.globalData.windowHeight,
-    array: ['东莞', '杭州', '深圳', '成都'],
-    index: 0,
-  },
-  lifetimes: {
-    attached: function () {
-      this.setData({
-        navH: App.globalData.navHeight
-      })
-     }
   },
   /**
    * 组件的方法列表
    */
   methods: {
-    bindPickerChange: function (e) {
-      console.log(e)
-      console.log('picker发送选择改变，携带值为', e.detail.value)
-      this.triggerEvent('clicks',e.detail.value);
-      this.setData({
-        index: e.detail.value
-      })
-    },
-    //回退
+    //点击返回
     navBack: function () {
       if(this.showBack){
         wx.navigateBack()      
@@ -74,15 +57,6 @@ Component({
         })
       }
        
-    },
-    //回主页
-    toIndex: function () {
-      wx.navigateTo({
-        url: '/pages/index/index'
-      })
-    },
-    titlehandel(){
-      this.triggerEvent('click');
     },
   }
 })

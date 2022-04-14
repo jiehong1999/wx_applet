@@ -33,7 +33,7 @@
     "showES6CompileOption": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.23.4",
+  "libVersion": "2.15.0",
   "appid": "wx83c12180010926ec",
   "projectname": "wx_applet",
   "debugOptions": {
