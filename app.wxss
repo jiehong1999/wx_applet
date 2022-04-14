@@ -1,4 +1,6 @@
 /**app.wxss**/
+/*图标库*/
+@import "/utils/iconfont.wxss";
 .container {
   height: 100%;
   display: flex;

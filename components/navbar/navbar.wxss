@@ -1,0 +1,86 @@
+/* pages/components/navbar.wxss */
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000;
+  flex-shrink: 0;
+  background-color: #FFF;
+}
+
+.navbar-title {
+  z-index: 100000;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 230rpx;
+  padding-right: 230rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  font-weight: bold;
+}
+
+.navbar-action-wrap {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+  z-index: 100000;
+  height: 68rpx;
+  line-height: 68rpx;
+}
+.navbar-action-wrap .iconfont{
+  font-size: 40rpx !important;
+}
+.navbar-action-group {
+  /* border: 1px solid #f0f0f0;
+  border-radius: 20px;
+  overflow: hidden; */
+}
+
+.navbar-action_item {
+  padding: 6rpx 0;
+  color: #333;
+}
+.navbar-action-group .navbar-action_item {
+  border-right: 2rpx solid #f0f0f0;
+  padding: 6rpx 28rpx;
+}
+
+.navbar-action-group .last {
+  border-right: none;
+}
+.b_arrow {
+  width: 16rpx;
+  height: 16rpx;
+}
+
+
+.iconLeft {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.bgColor {
+  /* background: linear-gradient(0deg, #998CFF 0%, #6B54FF 100%)!important; */
+  background: #6B54FF;
+}
+.txtColor {
+  color: #FFF!important;
+}
