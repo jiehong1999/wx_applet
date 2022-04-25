@@ -1,6 +1,6 @@
 /**index.wxss**/
-.index{
-  
+.index_box{
+  background-color: #ffffff;
 }
 .swiper_item_view{
   width: 100%;
@@ -8,7 +8,35 @@
   margin-left: 10rpx;
   margin-right:10rpx ;
 }
-.swiper_item_imgage{
+.swiper_item_imgage_video{
   width: 100%;
   height: 100%;
+}
+.type_nav_list{
+  padding-top: 10rpx;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  flex-warp:warp;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+.nav_one_item{
+  width: 20%;
+  padding:16rpx 0rpx;
+  font-size: 24rpx;
+  color: #666666;
+  text-align: center;
+  line-height: 40rpx;
+}
+.nav_icon{
+  width: 48rpx;
+  height: 48rpx;
+  font-size: 48rpx;
+  text-align: center;
+  margin: auto;
+}
+.line_view{
+  width: 100%;
+  border-top: 8rpx solid #f9f9f9;
 }

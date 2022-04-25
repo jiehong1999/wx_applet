@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "navbar": "/components/navbar/navbar"
+    "navbar": "/components/navbar/navbar",
+    "shop_list": "/components/shop_list/shop_list"
   }
 }

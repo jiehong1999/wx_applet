@@ -1,0 +1,18 @@
+<!--components/shop_list/shop_list.wxml-->
+<view class="shop_list">
+  <view class="item_shop" wx:for="{{10}}" wx:key="*this">
+    <image class="item_shop_imgage" 	lazy-load="true" mode="widthFix" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+    <view class="item_shop_content">
+      小程序 video 组件同层渲染公测
+    小程序video组件如何加载 使用第三方上传的带有referer防盗链的视频 官方
+    video 组件，IOS 播放直播流m3u8 地址，点击暂停，会出现一直黑屏，点击播放，恢复正常 官方
+    iOS 上 video 位于 scrollView 内部时，全屏后返回，scrollView 自动滚动到顶部
+    </view>
+    <view class="money_or_msg">
+      <text class="old_money money_color">￥999999</text>
+      <text class="new_money money_color">￥3000</text>
+    </view>
+  </view>
+</view>
+
+

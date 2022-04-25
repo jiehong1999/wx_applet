@@ -1,0 +1,53 @@
+/* components/shop_list/shop_list.wxss */
+.shop_list{
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-warp:warp;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+.item_shop{
+  width: 340rpx;
+  margin-bottom: 10rpx;
+  border-radius: 8rpx;
+  overflow: hidden;
+  border: 2rpx solid #c7c7c7;
+}
+.item_shop_imgage{
+  width: 100%;
+}
+.item_shop_content{
+  font-size: 26rpx;
+  font-weight: 600;
+  color: #666666;
+  line-height: 34rpx;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  padding: 0rpx 10rpx;
+  
+}
+.money_or_msg{
+  padding: 10rpx 10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-warp:warp;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+.money_color{
+  color: rgb(250, 76, 76);
+}
+
+.old_money{
+  text-decoration:line-through;
+  font-size: 26rpx;
+  font-weight: 400;
+}
+.new_money{
+  font-size: 30rpx;
+  font-weight: 600;
+}

@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/classification/classification",
+    "pages/my/my"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -12,5 +14,29 @@
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "tabBar": {
+    "custom": false,
+    "color": "#666666",
+    "selectedColor": "#409AF3",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/shouye.png",
+        "selectedIconPath": "static/icon/shouye_ac.png"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "text": "分类",
+        "iconPath": "static/icon/fenlie.png",
+        "selectedIconPath": "static/icon/fenlie_ac.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/icon/wode.png",
+        "selectedIconPath": "static/icon/wode_ac.png"
+      }
+    ]
+  }
 }

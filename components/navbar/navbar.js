@@ -30,7 +30,11 @@ Component({
     bgColor: {
       type: String,
       value: ""
-
+    },
+    //是否启用插槽
+    is_slot: {
+      type: Boolean,
+      value: false
     },
   },
 

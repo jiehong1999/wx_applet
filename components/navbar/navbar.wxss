@@ -84,3 +84,6 @@
 .txtColor {
   color: #FFF!important;
 }
+.content_main_box{
+  overflow-y: auto;
+}

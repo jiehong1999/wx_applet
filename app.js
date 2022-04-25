@@ -31,6 +31,7 @@ App({
 
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    web_color:"#409AF3",
   }
 })

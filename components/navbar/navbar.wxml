@@ -1,5 +1,6 @@
 <!--pages/components/navbar.wxml-->
-<view class="navbar custom-class" style="height:{{navHeight}}px;background-color: {{bgColor}};">
+<view>
+  <view class="navbar custom-class" style="height:{{navHeight}}px;background-color: {{bgColor}};">
   <view bindtap="navBack" class="navbar-action-wrap navbar-action-group row item-center" style='top:{{navTop}}px;'>
   <!-- 显示返回 -->
     <text  wx:if="{{showBack}}" class="iconfont icon-fanhui"></text>
@@ -13,3 +14,9 @@
   </view>
 </view>
 <view style='height:{{navHeight}}px;'></view>
+<view wx:if="{{is_slot}}" class="content_main_box" style='height:{{windowHeight-navHeight}}px;'>
+  <slot>
+  </slot>
+</view>
+
+</view>
